@@ -38,9 +38,15 @@
         .btn-brand:hover {
             background-color: #0056b3; 
         }
-        #commitment, #services {
-            background-color: #ffffff; 
-            color:black; 
+        #commitment {
+            background-color: #f8f9fa; 
+            color: black; 
+            padding: 40px 20px;
+        }
+        #services {
+            background-color: #f1f1f1; 
+            color: black; 
+            padding: 40px 20px;
         }
         .circle-section {
             background-color: #007bff;
@@ -49,7 +55,7 @@
         .circle-container {
             display: flex;
             justify-content: space-around; 
-            gap: 15px; /
+            gap: 15px;
         }
         .circle {
             width: 100px;
@@ -64,10 +70,17 @@
         .circle img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensure the image covers the container without stretching */
+            object-fit: cover; 
         }
-        .i{
+        .i {
             color: #007bff;
+            font-size: 60px; 
+        }
+        .service-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
     </style>
 </head>
@@ -94,6 +107,7 @@
             </div>
         </div>
     </nav>
+    <!-- FLAGS -->
     <section class="circle-section">
         <div class="container">
             <div class="circle-container">
@@ -127,23 +141,24 @@
                 We understand that every learner has unique goals and needs. That's why we offer a variety of services to cater to your specific learning journey.</p>
         </div>
     </section>
+ 
 
     <!-- Services Offered Section -->
     <section id="services" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Our Services:</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 service-item">
                     <i class="bi bi-signpost-2-fill"></i>
                     <h3> Learning Pathways:</h3>
                     <p>Craft your learning journey! FluentFusion tailors a curriculum to your goals in Arabic, Slavic/Baltic languages, or Turkish. Whether it's business Arabic or conversational Slavic languages, we focus on what matters to you, accelerating your progress and keeping you motivated.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 service-item">
                     <i class="bi bi-globe2"></i>
                     <h3> Cultural Lessons</h3>
                     <p>Go beyond the textbook! FluentFusion offers immersive cultural lessons that bring Arabic, Slavic/Baltic, or Turkish cultures to life. Explore virtual landmarks, learn to cook regional dishes, or discuss music and film. Interact with native speakers and gain a deeper understanding of the language in context, boosting your confidence.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 service-item">
                     <i class="bi bi-person-raised-hand"></i>
                     <h3>Language Labs </h3>
                     <p>Practice makes perfect! FluentFusion's interactive language labs provide a dynamic space to practice your Arabic, Slavic languages, Swedish, or Turkish.  Engage in gamified exercises, participate in live conversation groups, or receive personalized feedback from tutors.  These labs make language learning fun, interactive, and effective!</p>
@@ -158,7 +173,7 @@
           <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
           <li class="nav-item"><a href="./AboutUs.html" class="nav-link px-2 text-body-secondary">About</a></li>
         </ul>
-        <p class="text-center text-body-secondary">2024 FLuent Fusion, Inc</p>
+        <p class="text-center text-body-secondary">2024 Fluent Fusion, Inc</p>
       </footer>
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
